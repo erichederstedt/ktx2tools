@@ -1,0 +1,20 @@
+{
+  "name": "ktx2tools",
+  "version": "0.0.1",
+  "description": "A package that runs the ktx2tools executables",
+  "main": "cli.js",
+  "bin": {
+    "basisu": "./cli.js"
+  },
+  "files": [
+    "bin/",
+    "cli.js"
+  ],
+  "keywords": [
+    "ktx2",
+    "ktx2tools"
+  ],
+  "author": "eric.hederstedt",
+  "homepage": "https://github.com/erichederstedt/ktx2tools",
+  "license": "MIT"
+}
