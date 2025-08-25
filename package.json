@@ -1,14 +1,25 @@
 {
   "name": "ktx2tools",
-  "version": "0.0.1",
-  "description": "A package that runs the ktx2tools executables",
-  "main": "cli.js",
+  "version": "1.0.0",
+  "description": "A package that contains and runs ktx2tools executables",
+  "main": "ktx.js",
   "bin": {
-    "basisu": "./cli.js"
+    "ktx": "./ktx.js",
+	"ktx2check": "./ktx2check.js",
+	"ktx2ktx2": "./ktx2ktx2.js",
+	"ktxinfo": "./ktxinfo.js",
+	"ktxsc": "./ktxsc.js",
+	"toktx": "./toktx.js"
   },
   "files": [
     "bin/",
-    "cli.js"
+    "ktx.js",
+    "ktx2ktx2.js",
+    "ktx2check.js",
+    "ktxinfo.js",
+    "ktx.js",
+    "ktx.js",
+    "toktx.js"
   ],
   "keywords": [
     "ktx2",
