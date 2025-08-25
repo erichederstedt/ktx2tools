@@ -7,11 +7,11 @@ function getExecutableName() {
   const os = process.platform;
   switch (os) {
     case "win32":
-      return "ktx.exe";
+      return "windows/ktx.exe";
     case "darwin":
-      return "ktx"; // Not sure if this works
+      return "darwin/ktx"; // Unsupported atm
     case "linux":
-      return "ktx";
+      return "linux/ktx";
     default:
       return null;
   }
