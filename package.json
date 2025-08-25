@@ -1,6 +1,6 @@
 {
   "name": "ktx2tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that contains and runs ktx2tools executables",
   "main": "ktx.js",
   "bin": {

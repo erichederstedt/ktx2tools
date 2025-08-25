@@ -1,8 +1,13 @@
-# basis_universal
+# ktx2tools
 
 ## Usage
 
 ```sh
-npm install basis_universal
-npx basisu
+npm install ktx2tools
+npx ktx --help
+npx ktx2check --help
+npx ktx2ktx2 --help
+npx ktxinfo --help
+npx ktxsc --help
+npx toktx --help
 ```
